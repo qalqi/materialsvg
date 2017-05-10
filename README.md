@@ -14,5 +14,7 @@ https://material.io/guidelines/resources/roboto-noto-fonts.html
  * [Elevation & shadows](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android) Elevation & shadows
  * [SVG/CSS Material Design Shadows](http://codepen.io/hanger/pen/yOGvQp) Kudos to hanger for this codepen
 
+#### Resources
+* [Inkscape Open Symbols](https://github.com/Xaviju/inkscape-open-symbols) has Material Design Icons created as Inkscape Symbols. After including with Inkscape symbol library, you can use them with Inkscape, Inkscape > Object > Symbols > Symbol Set > Material Design *
 
 
