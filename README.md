@@ -4,4 +4,15 @@ Material Design SVG resources
 
 * Please download the latest Roboto at
 https://material.io/guidelines/resources/roboto-noto-fonts.html
-* Created using https://material.io/resources and https://inkscape.org/en/
+* 9 Material Design Shadows are added. To use them with Inkscape in OsX and Unix, copy files to 
+`~/.config/inkscape/filters/` and restart Inkscape (*Needs to be tested in Windows*). To apply them to any Inkscape object Inkscape > Filters > Personal > shadow-*dp 
+
+
+
+#### Credits
+ * Created using [material.io](https://material.io/resources) and [Inkscape](https://inkscape.org/en/)
+ * [SVG/CSS Material Design Shadows](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android) Elevation & shadows
+ * [SVG/CSS Material Design Shadows](http://codepen.io/hanger/pen/yOGvQp) Kudos to hanger for this codepen
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="-50 -50 200 200" id="svg2" version="1.1" inkscape:version="0.91 r13725"
+  sodipodi:docname="16dpShadow_filter.svg">
+  <metadata id="metadata90">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>24dp Shadow filter</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10"
+    inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1280" inkscape:window-height="751" id="namedview88"
+    showgrid="false" inkscape:zoom="0.69716797" inkscape:cx="12.861745" inkscape:cy="200.40622" inkscape:window-x="0" inkscape:window-y="1"
+    inkscape:window-maximized="1" inkscape:current-layer="svg2" />
+  <defs id="defs8">
+    <filter id="shadow-24dp" x="-50%" y="-100%" width="200%" height="300%">
+      <feOffset in="SourceAlpha" result="offA" dy="9" />
+      <feOffset in="SourceAlpha" result="offB" dy="24" />
+      <feOffset in="SourceAlpha" result="offC" dy="11" />
+      <feMorphology in="offA" result="spreadA" operator="dilate" radius="8" />
+      <feMorphology in="offB" result="spreadB" operator="dilate" radius="3" />
+      <feMorphology in="offC" result="spreadC" operator="erode" radius="7" />
+      <feGaussianBlur in="spreadA" result="blurA" stdDeviation="23" />
+      <feGaussianBlur in="spreadB" result="blurB" stdDeviation="19" />
+      <feGaussianBlur in="spreadC" result="blurC" stdDeviation="7.5" />
+      <feFlood flood-opacity="0.14" result="opA" />
+      <feFlood flood-opacity="0.12" result="opB" />
+      <feFlood flood-opacity="0.40" result="opC" />
+      <feComposite in="opA" in2="blurA" result="shA" operator="in" />
+      <feComposite in="opB" in2="blurB" result="shB" operator="in" />
+      <feComposite in="opC" in2="blurC" result="shC" operator="in" />
+      <feMerge>
+        <feMergeNode in="shA" />
+        <feMergeNode in="shB" />
+        <feMergeNode in="shC" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+   </defs>
+  <circle style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#shadow-24dp)"
+    id="path12797" cx="50" cy="50" r="45" />
+</svg>
