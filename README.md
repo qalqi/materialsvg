@@ -11,7 +11,7 @@ https://material.io/guidelines/resources/roboto-noto-fonts.html
 
 #### Credits
  * Created using [material.io](https://material.io/resources) and [Inkscape](https://inkscape.org/en/)
- * [SVG/CSS Material Design Shadows](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android) Elevation & shadows
+ * [Elevation & shadows](https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android) Elevation & shadows
  * [SVG/CSS Material Design Shadows](http://codepen.io/hanger/pen/yOGvQp) Kudos to hanger for this codepen
 
 
